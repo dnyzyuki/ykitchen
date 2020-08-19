@@ -1,0 +1,464 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 20px;
+  line-height: 160%;
+  color: #000;
+  font-family: "NotoKr", "Malgun Gothic", "맑은 고딕", Dotum, "돋움", Helvetica,
+    AppleSDGothicNeo, sans-serif;
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  word-spacing: -5px;
+  /*background:#fff;*/
+}
+
+/*layout*/
+#wrap {position:relative; width:100%; min-width:320px;z-index:1; overflow:hidden; }
+
+header {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  
+}
+header .header {
+  width: 1028px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 18px 0 14px 0;
+  height: 64px;
+}
+header .header h1 {
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 22px;
+  background:url(../images/logo_yk_w.png) left top no-repeat;
+  background-size:97px 23px;
+  margin-left:20px;
+  width:97px;
+  height:23px;
+  border color: solid 1px color: red;;
+}
+
+header.fixed {
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  background: #f8dd20;
+  z-index:999999999;
+}
+
+header.fixed .header h1 {
+ background:url(../images/logo_yk.png) left top no-repeat;
+}
+
+header .header div.fr{
+	width:97px;
+	height:23px;
+	
+	background:url(../images/logo_ks_w.png) left top no-repeat;
+  background-size:97px 23px;
+  margin-right:20px;
+}
+
+header.fixed .header div.fr{
+	background:url(../images/logo_ks.png) left top no-repeat;
+}
+
+/*main-visual-wrap*/
+.main-visual-wrap {
+  background: #00c6b1;
+}
+.main-visual {
+  width: 1028px;
+  height: 836px;
+  margin: 0 auto;
+  background: url(../images/bg_top.jpg) no-repeat center 0px;
+  background-size: cover;
+}
+.main-visual h2.tit {
+  padding: 160px 0 0 0;
+  color: #f8dd20;
+  font-size: 55px;
+  line-height: 110%;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+.main-visual h2.tit:after {
+  content: "";
+  background: #ffd600;
+  width: 132px;
+  height: 6px;
+  display: block;
+  margin: 30px auto;
+}
+.main-visual h3.sus-tit {
+  padding: 154px 0 0 114px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  line-height: 120%;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/*common*/
+.cont-wrap {
+  width: 1028px;
+  margin: 0 auto;
+  
+  overflow: hidden;
+  padding:50px 0;
+}
+
+h3.tit {
+  font-size: 36px;
+  color: #000;
+  font-weight: 600px;
+  text-align: center;
+  margin: 30px 0;
+}
+h3.tit:after {
+  content: "";
+  background: #ffd600;
+  width: 132px;
+  height: 6px;
+  display: block;
+  margin: 10px auto;
+}
+
+.dl-txt dt {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.dl-txt dd {
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+p.img img {
+}
+
+.bg-gray {
+  background: #ececec;
+}
+.bg-write {
+  background: #fff;
+  padding: 5px;
+  font-size: 38px;
+  display: inline-block;
+}
+
+/*section.cont1*/
+section.cont1 {
+
+}
+section.cont1 div.clear {
+  margin-bottom: 50px;
+  
+  overflow: hidden;
+}
+section.cont1 dl {
+  float: right;
+  width: 32%;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+section.cont1 p.img {
+  float: left;
+  width: 50%;
+}
+
+section.cont1 div.clear:last-child dl {
+  margin-top: 120px;
+}
+
+/*section.cont2*/
+section.cont2 {
+
+}
+section.cont2 .cont-txt {
+  margin: 0 auto;
+  width: 50%;
+  overflow: hidden;
+  padding:50px 0;
+}
+section.cont2 .bg-cover {
+  background: url(../images/img_plus.png) no-repeat left top;
+  background-size: contain;
+  height: 689px;
+}
+
+section.cont2 .cont-txt-img .clear {
+  
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+section.cont2 .cont-txt-img p.img {
+  float: left;
+  margin-top: 60px;
+  width: 30%;
+ 
+}
+section.cont2 .cont-txt-img dl {
+  float: right;
+  width: 50%;
+  margin-top: 20px;
+}
+
+section.cont2 div.fl{
+	width:374px;
+	
+}
+
+/*section.cont3*/
+section.cont3 {
+  
+  background: #00c6b1;
+}
+section.cont3 h3.tit {
+  color: #fff;
+  font-size: 36px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: 50px;
+}
+section.cont3 h3.tit:after {
+  display: none;
+}
+section.cont3 .cont-wrap {
+  background: url(../images/img_brand.png) no-repeat left top;
+  background-size: cover;
+  height: 775px;
+}
+section.cont3 .sub-txt {
+  padding: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 24px;
+  margin-top: 360px;
+}
+
+/*section.cont4*/
+section.cont4 {
+  
+}
+section.cont4 h3.tit {
+  color: #000;
+  font-size: 36px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: 50px;
+}
+section.cont4 h3.tit:after {
+  display: none;
+}
+
+section.cont4 .history-list {
+}
+section.cont4 .history-list ul li {
+  padding-bottom: 30px;
+  font-size: 18px;
+  color: #666;
+  border-left: 1px solid #ccc;
+  padding-left: 50px;
+  margin-left: 60px;
+  position: relative;
+}
+section.cont4 .history-list ul li span {
+  display: block;
+}
+section.cont4 .history-list ul li strong {
+  display: block;
+  font-size: 20px;
+}
+section.cont4 .history-list ul li:before {
+  content: "";
+  background: url(../images/ico_dot2.png) left top no-repeat;
+  width: 42px;
+  height: 42px;
+  background-size: 42px 42px;
+  position: absolute;
+  left: -22px;
+  top: 0;
+}
+
+section.cont4 .history-list ul li:last-child {
+  border-left: none;
+}
+
+section.cont4 .history-box {
+  width: 65%;
+}
+section.cont4 .history-box ul li {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 110px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+section.cont4 .history-box ul li span {
+  margin-left: 30px;
+  float: left;
+  /*background: url(../images/cont5_img3.png) left top no-repeat;*/
+  width: 100px;
+  height: 50px;
+  background-size: 100px 50px;
+  margin-right: 30px;
+}
+section.cont4 .history-box ul li p {
+  float: left;
+}
+section.cont4 .history-box ul li div {
+  float: left;
+  text-align: left;
+}
+section.cont4 .history-box ul li div h3 {
+  font-size: 20px;
+}
+section.cont4 .history-box ul li div em {
+  color: #666;
+  display: block;
+}
+section.cont4 .history-box ul li:before {
+  content: "";
+  width: 6px;
+  height: 110px;
+  background: #f8dd20;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/*section.cont5*/
+section.cont5 {
+  
+  background: #f8dd20;
+}
+section.cont5 h3.tit {
+  color: #000;
+  font-size: 36px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: 50px;
+}
+section.cont5 h3.tit:after {
+  display: none;
+}
+section.cont5 .clear {
+  overflow: hidden;
+}
+section.cont5 .clear .dl-txt {
+  width: 80%;
+}
+
+section.cont5 .img-wrap {
+}
+section.cont5 .img-wrap p.img {
+  width: 50%;
+  height: 450px;
+  float: left;
+}
+section.cont5 .img-wrap p.img img {
+  width: 100%;
+  height: 100%;
+}
+
+section.cont5 .media-wrap {
+  overflow: hidden;
+  margin:0 50px;
+}
+section.cont5 .media-wrap div.fl {
+  width: 50%;
+}
+section.cont5 .media-wrap div.fr {
+  width: 50%;
+}
+section.cont5 .media-wrap dl dt {
+  margin-bottom: 10px;
+}
+section.cont5 .media-wrap dl dd img {
+  width: 100%;
+}
+
+section.cont5 .clear-ing {
+  width: 51%;
+  margin: 80px auto;
+  overflow: hidden;
+}
+
+/*section.cont6*/
+section.cont6 {
+	padding:50px 0;
+}
+section.cont6 h3.tit {
+  color: #000;
+  font-size: 36px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: 50px;
+}
+section.cont6 h3.tit:after {
+  display: none;
+}
+
+section.cont6 h4.sub-txt {
+	margin-left:50px;
+}
+
+section.cont6 p.img {text-align:center;}
+section.cont6 p.img img { height:230px; margin: 0 auto;}
+
+section.cont6 ol.list{width:60%;margin: 30px auto;}
+section.cont6 ol.list li{ font-size:24px; display:inline-block; width:45%;}
+section.cont6 h5.sub-txt { font-size: 22px; text-align:center;}
+
+
+/*section.cont7*/
+section.cont7 {
+	padding:50px 0;
+}
+section.cont7 h3.tit {
+  color: #000;
+  font-size: 36px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: 50px;
+}
+section.cont7 h3.tit:after {
+  display: none;
+}
+
+section.cont7 ul{text-align:center; padding:50px 0;}
+section.cont7 ul li{
+	display:inline-block;
+	width:32%;
+	margin-bottom:20px;
+}
+section.cont7 ul li img{ height:107px;}
+
+
+footer{
+	background:#444859;
+	color:#fff;
+	padding:50px 0;
+}
+
+footer h6{
+	font-size:36px;
+	color:#fff;
+	font-weight:600;
+	margin-bottom:30px;
+}
+
+footer .cont-wrap p a{color:#fff;}
+
+footer em{font-size:11px; color:#f2f2f2; vertical-align:top;}

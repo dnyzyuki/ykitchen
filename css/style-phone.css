@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/*width 1016px 보다 큰 디바이스*/
+@media (min-width: 1016px) {
+    .hidden-pc{display:none;}
+
+
+}/*pc end*/
+
+
+/*width 1016px 보다 작은 디바이스*/
+@media (max-width: 1016px) {
+	.hidden-phone{display:none;}
+	
+	
+
+	/*common*/
+	.cont-wrap{ width:auto; padding: 30px 10px;}
+	h3.tit{font-size:26px;}
+	p.img img{width:100%;}
+
+	header .header h1{ padding-left:20px;}
+	header .header .fr{ position:absolute; right:10px; top:20px;}
+	header .header .fr img{ height:20px;}
+
+	.main-visual{width:auto;}
+	.main-visual h2.tit{text-align:left; margin-left: 20px; font-size: 44px;}
+	.main-visual h2.tit:after{ margin:30px 0 0 10px;}
+
+	.main-visual h3.sus-tit{padding: 52px 0 0 20px; font-size:18px;}
+	
+	/*section.cont1*/
+	section.cont1 dl{float:none;clear:both; width:auto; margin:20px; text-align:center;}
+	section.cont1 p.img{float:none;clear:both; width:auto;}
+	section.cont1 div.clear{margin-bottom:20px;}
+	section.cont1 div.clear:last-child dl{margin-top:0;}
+	section.cont1 div.clear.dl-txt{}
+
+	/*section.cont2*/
+	section.cont2 .cont-txt{width:90%; margin:0 auto;}
+	section.cont2 .cont-txt p.img{width:90px;}
+	section.cont2 .cont-txt div.fl{ width:57%;}
+	section.cont2 .cont-txt div.fl dd{font-size:14px;}
+
+	section.cont2 .bg-cover{ 
+		width: auto;    
+		height: 239px;
+		background-size: 100% 100%;
+	}
+
+	/**/
+	section.cont2 .cont-txt-img p.img{float:none; width:auto; margin-left:0; margin-top:0;}
+	section.cont2 .cont-txt-img dl{float:none;width:auto;}
+
+	section.cont3 .sub-txt {
+		padding: 20px;
+		color: #fff;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+		font-size: 13px; 
+		line-height: 180%;
+		margin-top: 320px;
+	}
+
+	/**/
+	section.cont4 .history-list.fl{ float:none; clear:both; width: auto;}
+	section.cont4 .history-box{float:none; width:auto; margin:0 0;}
+	
+	section.cont4 .history-box ul li span {
+		margin-left: 0;
+		float: left;
+		/* background: url(../images/cont5_img3.png) left top no-repeat; */
+		width: 20%;
+		height: 50px;
+		background-size: 100px 50px;
+		margin-right: 0;
+	}
+
+	section.cont4 .history-box ul li div {
+		float: right;
+		text-align: left;
+		width: 58%;
+		font-size:14px;
+	}
+
+	section.cont4 .history-box ul li div h3{
+		font-size:16px;
+	}
+
+	section.cont4 .history-box ul li div em {
+		line-height: 130%;
+	}
+
+	/**/
+	section.cont5 .media-wrap { overflow: hidden; margin: 0 0px;}
+	section.cont5 .media-wrap div.fl{width:auto; float:none;}
+	section.cont5 .media-wrap div.fr{width:auto; float:none;}
+	section.cont5 .img-wrap p.img{width:auto;float:none; clear:both; height:auto; line-height:50%;}
+	section.cont5 .clear-ing {
+		width: 86%;
+		margin: 70px auto;
+		overflow: hidden;
+	}
+
+	
+	section.cont6 h4.sub-txt{ margin-left:0;}
+	section.cont6 h5.sub-txt{ margin-left:0; font-size: 15px; text-align: center; line-height: 120%;}
+	section.cont6 p.img img { width: 50%; height: 50%;}
+	section.cont6 ol.list {
+		width: 95%;
+		margin: 30px auto;
+	}
+	section.cont6 ol.list li {
+		font-size: 19px;
+		display: inline-block;
+		width: 80%;
+	}
+
+
+	section.cont7 ul li{
+		width:45%;
+		float:left;
+	}
+
+	section.cont7 ul li img{
+		height:67px;
+	}
+
+	section h3.tit.black{
+		margin-left:0;
+		font-size:26px;
+		text-align:center;
+	}
+
+	dl.dl-txt dt{ font-size:20px; }
+	dl.dl-txt dd{ font-size:18px; line-height: 26px;}
+
+}/*phon end*/
+
+
+
+
+/*-----------------예외---------------------------------*/
+/*ipon 5*/
+@media (max-width: 499px) {
+   
+}
+
+/*ipon 6,7,8*/
+@media  (min-width: 375px) and (max-width : 667px) {
+	
+	
+	
+	
+}
+@media  (min-width: 414px) and (max-width : 736px) {	
+	
+
+	
+}
+/*ipad*/
+@media  (min-width: 768px) and (max-width : 1024px) {	
+	
+}
