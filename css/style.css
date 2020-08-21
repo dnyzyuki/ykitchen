@@ -135,12 +135,13 @@ h3.tit:after {
 
 .dl-txt dt {
   font-size: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .dl-txt dd {
   font-size: 20px;
   letter-spacing: -1px;
   font-weight: 400;
+  margin-bottom: 30px;
 }
 
 p.img img {
@@ -217,6 +218,7 @@ section.cont2 div.fl{
 	width:374px;
 	
 }
+
 
 /*section.cont3*/
 section.cont3 {
