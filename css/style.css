@@ -55,6 +55,7 @@ header.fixed {
 
 header.fixed .header h1 {
  background:url(../images/logo_yk.png) left top no-repeat;
+ background-size:97px 23px;
 }
 
 header .header div.fr{
@@ -103,7 +104,7 @@ header.fixed .header div.fr{
   text-align: left;
   font-size: 24px;
   color: #fff;
-  line-height: 120%;
+  line-height: 160%;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
@@ -327,6 +328,7 @@ section.cont4 .history-box ul li div h3 {
 section.cont4 .history-box ul li div em {
   color: #666;
   display: block;
+  font-weight: light;
 }
 section.cont4 .history-box ul li:before {
   content: "";
