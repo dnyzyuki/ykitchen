@@ -37,10 +37,10 @@ header .header h1 {
   font-weight: 500;
   font-size: 22px;
   background:url(../images/logo_yk_w.png) left top no-repeat;
-  background-size:97px 23px;
+  background-size:150px 36px;
   margin-left:20px;
-  width:97px;
-  height:23px;
+  width:194px;
+  height:36px;
   border color: solid 1px color: red;;
 }
 
@@ -55,7 +55,7 @@ header.fixed {
 
 header.fixed .header h1 {
  background:url(../images/logo_yk.png) left top no-repeat;
- background-size:97px 23px;
+ background-size:150px 36px;
 }
 
 header .header div.fr{
@@ -223,7 +223,7 @@ section.cont2 div.fl{
 /*section.cont3*/
 section.cont3 {
   
-  background: #00c6b1;
+  background: #00addf;
 }
 section.cont3 h3.tit {
   color: #fff;
